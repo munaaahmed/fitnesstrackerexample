@@ -16,7 +16,7 @@ https://fitnesstrackerexample.herokuapp.com/
 * [Challenges](#challenges)
 
 ## Demo
-![](images/homework19.gif) 
+![](images/fitness.gif) 
 
 ## Description
 This project is a tracker that allows you to track your workouts. It allows you to easily log in your workouts as well as check out your fitness statistics. 
