@@ -17,8 +17,8 @@ app.use(express.static("public"));
 
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
-mongoose.connect(
-    process.env.MONGODB_URI || "mongodb+srv://fitnesstracker:1234@cluster0.jhsu5.mongodb.net/fitnesstracker?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://fitnesstracker:1234@cluster0.jhsu5.mongodb.net/fitnesstracker?retryWrites=true&w=majority",
+    process.env.MONGODB_URI || 
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
